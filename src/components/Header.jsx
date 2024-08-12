@@ -42,7 +42,7 @@ const Header = () => {
           <img
             src={layer}
             alt="layer"
-            className="w-full -z-10 absolute bottom-0 translate-y-[55%] pointer-events-none"
+            className="w-full -z-10 absolute bottom-0 translate-y-[62%] pointer-events-none"
           />
         </header>
       </div>

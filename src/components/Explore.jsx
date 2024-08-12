@@ -5,7 +5,7 @@ import { EXPLORE_LIST } from "../utils/helper";
 const Explore = () => {
   return (
     <div className="bg-low-black">
-      <div className="relative z-10 max-w-[1920px] mx-auto overflow-x-clip flex max-lg:items-center flex-col lg:flex-row pt-20 lg:pt-[175px] overflow-hidden pb-10 lg:h-[826px]">
+      <div className="relative z-10 max-w-[1920px] mx-auto overflow-x-clip flex max-lg:items-center flex-col lg:flex-row pt-14 lg:pt-[175px] overflow-hidden pb-10 lg:h-[826px]">
         <div className="lg:absolute max-lg:relative left-3 lg:left-10 lg:-bottom-[30%] z-10">
           <div className="relative">
             <img
@@ -13,7 +13,7 @@ const Explore = () => {
               src={gunGirl}
               alt="Girl"
             />
-            <div className="max-w-[438px] max-h-[695px] bg-light-blue -z-10 blur-[80px]  opacity-25 w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/3 lg:-translate-x-[85%] lg:-translate-y-[64%]"></div>
+            <div className="max-w-[438px] max-h-[695px] bg-light-blue -z-10 blur-[80px]  opacity-15 w-full h-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/3 lg:-translate-x-[85%] lg:-translate-y-[64%]"></div>
           </div>
         </div>
         <div className="container xl:max-w-[1140px] xl:px-0">
