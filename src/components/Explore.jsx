@@ -5,11 +5,11 @@ import { EXPLORE_LIST } from "../utils/helper";
 const Explore = () => {
   return (
     <div className="bg-low-black">
-      <div className="relative z-10 max-w-[1920px] mx-auto overflow-x-clip flex flex-col lg:flex-row items-center  overflow-hidden pb-10 lg:h-[826px]">
+      <div className="relative z-10 max-w-[1920px] mx-auto overflow-x-clip flex max-lg:items-center flex-col lg:flex-row pt-20 lg:pt-[175px] overflow-hidden pb-10 lg:h-[826px]">
         <div className="lg:absolute max-lg:relative left-3 lg:left-10 lg:-bottom-[30%] z-10">
           <div className="relative">
             <img
-              className="object-cover relative object-top w-[500px] h-[500px] md:w-[500px] md:h-[700px] lg:w-[700px] lg:h-[900px] xl:w-[880px] xl:h-[1070px] "
+              className="object-cover relative object-top w-[320px] h-[320px] md:w-[500px] md:h-[700px] lg:w-[700px] lg:h-[900px] xl:w-[880px] xl:h-[1070px] "
               src={gunGirl}
               alt="Girl"
             />
@@ -17,7 +17,7 @@ const Explore = () => {
           </div>
         </div>
         <div className="container xl:max-w-[1140px] xl:px-0">
-          <div className="flex flex-col justify-end lg:items-end relative z-50 -mt-20 lg:mt-20">
+          <div className="flex flex-col justify-end lg:items-end relative z-50">
             <div className="p-4 md:p-8 backdrop-blur-[4px] relative lg:p-[50px] lg:pr-20 rounded-[10px] bg-white bg-opacity-[4%]">
               <img
                 className="md:w-[234px] w-[180px] h-14 md:h-[73px]"
@@ -49,7 +49,7 @@ const Explore = () => {
                 </div>
               ))}
 
-              <div className="w-[156px] h-[54px] bg-gray-lose blur-[64px] pointer-events-none absolute top-[68px] left-[89px] rounded-full -z-10" />
+              <div className="w-[156px] h-[54px] bg-gray-lose blur-[64px] pointer-events-none absolute top-[70px] left-[89px] rounded-full -z-10" />
               <img
                 src={robotHead}
                 alt="robotHead"
