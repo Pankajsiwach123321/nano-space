@@ -30,6 +30,7 @@ const NavBar = () => {
             {NAVBAR_LIST.map((obj, i) => (
               <li key={i}>
                 <a
+                  aria-label={obj.name}
                   onClick={() => setOpenNav(false)}
                   href={obj.url}
                   className="font-saira text-base max-md:hover:text-black text-white h-full block lg:py-[27px] py-6 px-3 lg:px-4 duration-300 hover:bg-gray-light hover:bg-opacity-50 !leading-[157%]"

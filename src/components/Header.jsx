@@ -6,7 +6,7 @@ import NavBar from "./NavBar";
 const Header = () => {
   return (
     <div className="bg-low-black">
-      <div className="bg-hero bg-cover lg:min-h-[810px] min-h-[700px] flex flex-col bg-center max-w-[1920px] mx-auto lg:bg-full">
+      <div className="bg-hero bg-cover relative lg:min-h-[810px] min-h-[700px] flex flex-col bg-center max-w-[1920px] mx-auto lg:bg-full">
         <NavBar />
         <header className="relative z-[10] grow mt-28 lg:mt-[182px]">
           <div className="flex-grow flex items-center justify-center">
@@ -23,6 +23,7 @@ const Header = () => {
                   {HEADER_SOCIAL_LIST.map((obj, i) => (
                     <a
                       key={i}
+                      aria-label="socail link"
                       target="_blank"
                       className="group"
                       rel="noopener noreferrer"
