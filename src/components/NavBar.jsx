@@ -13,7 +13,7 @@ const NavBar = () => {
   }, [openNav]);
   return (
     <nav className="bg-white relative z-[100] overflow-x-clip backdrop-blur-lg bg-opacity-[6%] drop-shadow-sm">
-      <div className="xl:max-w-[1280px] xl:px-0 max-md:py-5 container">
+      <div className="xl:max-w-[1312px] max-md:py-5 container">
         <div className="flex justify-between items-center">
           <a href="#">
             <img
